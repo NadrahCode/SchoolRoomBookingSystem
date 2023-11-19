@@ -1,0 +1,164 @@
+:root{
+	--blue:#EC87C0;
+	--darkblue:#D770AD;
+	--red:rgb(255, 0, 38);
+	--lightred:rgb(223, 47, 74);
+	--black:#333;
+	--white:#fff;
+	--bg-color:#eee;
+	--dark-bg:rgba(0,0,0,.7);
+	--box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+	--border:.1rem solid #999;
+}
+*{
+	font-family: 'Poppins', sans-serif;
+	margin:0; padding:0;
+	box-sizing: border-box;
+	outline: none; border:none;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+	.h-font{
+		font-family: 'Merienda' cursive;
+	}
+
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+
+	/*input[type=number] {
+		-moz-appearance: textarea;
+	}*/
+	
+	.custom-bg{
+		background-color: var(--darkblue);
+		border: 1px solid var(--darkblue);
+	}
+	.custom-bg:hover{
+		background-color: var(--blue-hover);
+		border-color: var(--blue-hover);
+	}
+
+	.h-line{
+		width: 150px;
+		margin: 0 auto;
+		height: 1.7px;
+	}
+
+	.custom-alert{
+		position: fixed;
+		top: 80px;
+		right: 25px;
+	}
+	.navbar{
+		background: #EC87C0;
+	}
+
+	#dashboard-menu{
+		position: fixed;
+		height: 100%;
+        background-color: #EC87C0;
+	}
+
+	@media screen and (max-width: 992px){
+		#dashboard-menu{
+			width: 100%;
+			height: auto;
+			
+		}
+		#main-content{
+			margin-top: 60px;
+
+		}
+	}
+
+	.button{
+		width: auto ;
+		height: auto;
+		text-align: left;
+		background-color:var(--darkblue);
+		color:var(--white);
+		font-size: 15px;
+		padding:10px;
+		border-radius: 10px;
+		cursor: pointer;
+		margin-bottom: 10px;
+		text-decoration: none;
+	 }
+	 
+	 
+	 .button:hover{
+		color: white;
+		background-color: var(--black);
+		transition: 0.5s;
+	 }
+
+
+	 
+	 .btn{
+		width: auto ;
+		height: auto;
+		text-align: center;
+		background-color:var(--darkblue);
+		color:var(--white);
+		font-size: 15px;
+		padding:10px;
+		border-radius: 10px;
+		cursor: pointer;
+		margin-bottom: 10px;
+		text-decoration: none;
+		font-weight: bold;
+	 }
+	 
+	 
+	 .btn:hover{
+		color: var(--black);
+		font-weight: bold;
+		background-color: var(--blue);
+		transition: 0.5s;
+
+	 }
+
+
+
+	 /* Button styles for the user details table */
+	.btn-primary {
+		background-color: var(--darkblue);
+		color: var(--white);
+		font-size: 15px;
+		padding: auto;
+		padding-left: 50px;
+		padding-right: 50px;
+		border-radius: 10px;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	.btn-primary:hover {
+		background-color: var(--blue);
+		transition: 0.3s;
+	}
+
+	.btn-danger {
+		background-color: var(--red); 
+		color: var(--white);
+		font-size: 15px;
+		padding: auto;
+		padding-left: 50px;
+		padding-right: 50px;
+		border-radius: 10px;
+		cursor: pointer;
+		margin-left: auto;
+		margin-right: -100px;
+		text-decoration: none;
+	}
+
+	.btn-danger:hover {
+		background-color: var(--dark-red); /* You can choose your desired hover color */
+		transition: 0.3s;
+	}
+
+
+

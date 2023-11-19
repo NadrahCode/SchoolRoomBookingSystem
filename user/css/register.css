@@ -1,0 +1,39 @@
+div.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+.bg{
+    background-color: #f2bddb;
+}
+
+.custom-alert{
+position: fixed;
+top: 25px;
+right: 25px;
+}
+
+.nam{
+    font-style: float;
+    float:left;
+    margin-bottom: 10px;
+}
+
+.pass{
+    font-style: float;
+    float:left;
+    margin-bottom: 10px;
+}
+.no{
+    font-style: float;
+    float:left;
+    margin-bottom: 10px;
+}
+
+.mail{
+    font-style: float;
+    float:left;
+    margin-bottom: 10px;
+}
