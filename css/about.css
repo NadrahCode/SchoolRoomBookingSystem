@@ -1,0 +1,13 @@
+.box{
+    border-top-color: var(--blue) !important;
+  }
+  .mb-5{
+    font-size: 50px;
+    color: #D770AD;
+    font-weight: bolder;
+  }
+  .text{
+  font-size: 20px;
+  margin-bottom:20px;
+
+}

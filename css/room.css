@@ -1,0 +1,162 @@
+:root{
+    --blue:#061650;
+    --red:tomato;
+    --orange:orange;
+    --black:#333;
+    --white:#fff;
+    --bg-color:#eee;
+    --dark-bg:rgba(0,0,0,.7);
+ }
+ 
+ *{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+ }
+
+ .products .box-container .box{
+    text-align: center;
+    padding:3.5rem;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    border:.3rem solid darkblue;
+    border-radius: .5rem;
+    margin-bottom: 20px;
+ }
+
+ .products .box-container .box img{
+    height: 300px;
+    width: 450px;
+    float: left;
+    margin-right: 100px;
+    
+ }
+
+ .products .box-container .box h1{
+   color:var(--black);
+   margin-left: 2.5rem;
+   font-weight: bolder;
+   
+}
+
+ .products .box-container .box p{
+
+    font-size: 16px;
+    color:var(--black);
+    text-align: justify;
+ }
+ 
+ .products .box-container .box h4{
+   color:var(--black);
+   margin-left: 2.5rem;
+   font-weight: bold;
+   text-align: justify;
+}
+
+ 
+.buttonview {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: var(--blue); /* You can use your custom color variable */
+   color: var(--white); /* You can use your custom color variable */
+   border: 2px solid var(--blue); /* You can use your custom color variable */
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttonview:hover {
+   background-color: var(--blue_hover); /* You can define a custom hover color */
+   color: var(--white); /* You can define a custom hover color */
+}
+
+.buttonview:active {
+   background-color: var(--blue_active); /* You can define a custom active color */
+   color: var(--white); /* You can define a custom active color */
+}
+
+
+.room-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 60px; /* Reduce the gap between items */
+   max-width: 1200px; /* Adjust the maximum width as per your layout */
+   margin: 0 auto;
+}
+
+
+.room-item {
+   background-color: #f5f5f5;
+   padding: 20px;
+   border: 2px solid #ccc;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   text-align: center;
+   max-width: 300px;
+}
+
+.room-image {
+    width: 300px; /* Set the width to your desired size */
+    height: 200px; /* Set the height to your desired size */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    margin-bottom: 10px;
+}
+
+
+.room-title {
+   font-size: 24px;
+   color: #333;
+   margin-top: 10px;
+}
+
+.room-details {
+   text-align: left;
+}
+
+.room-description-title,
+.room-equipment-title {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10px;
+    height: 30px; /* Adjust this value as needed */
+}
+
+/* Add this CSS class to align titles */
+.room-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.room-description,
+.room-equipment {
+   font-size: 16px;
+   color: #6f2424;
+   margin-bottom: 50px;
+   text-align: justify;
+}
+
+.room-button {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #D770AD;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   text-decoration: none;
+   cursor: pointer;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.room-button:hover {
+   background-color: #f2bddb;
+}
+
+

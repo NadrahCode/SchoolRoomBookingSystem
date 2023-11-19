@@ -1,0 +1,14 @@
+@media print {
+    /* Adjust font size and margins for printed page */
+    body {
+      font-size: 12pt;
+      margin: 0;
+      object-fit: cover;
+    }
+  
+    /* Hide some elements that should not be printed */
+    .no-print {
+      display: none;
+    }
+  }
+  
